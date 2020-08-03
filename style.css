@@ -1,0 +1,128 @@
+* {
+	
+	box-sizing: border-box;
+}
+
+html {
+	background: #fcfcfc;
+	scrollbar-width: thin;
+	font-size: 14px;
+	background-color: #fdfdfd;
+	background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e1e1e1' fill-opacity='0.36'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+::selection {
+	background: hsla(0, 0%, 91%, 0.7);
+	color: #363636;
+}
+
+img, svg {
+	user-select: none;
+}
+
+body {
+	
+}
+
+
+.input {
+	margin: 5px 0 20px;
+	/* background: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(4px); */
+}
+
+.title {
+	font-family: 'Arvo', serif;
+	font-weight: 400;
+}
+
+.hero {
+	
+}
+
+
+.tutorial {
+	max-width: 600px;
+	text-align: center;
+	margin: auto;
+	
+	padding: 2em;
+}
+
+.media {
+	align-items: stretch;
+}
+
+figure .image {
+	display: flex;
+	justify-content: center;
+	background-color: #f4f4f4;
+	max-width: 200px;
+	max-height: 295px;
+}
+
+figure .image img {
+	/* width: 128px; */
+	max-width: 200px;
+	object-fit: contain;
+}
+
+.notification {
+	margin-top: 20px !important;
+}
+
+.notification .title {
+	font-size: 1.8rem;
+}
+
+.subtitle {
+	opacity: 0.75;
+}
+
+.title .icon {
+	margin-left: 15px;
+}
+
+.hero {
+	margin-bottom: 20px;
+}
+
+.forms {
+	display: flex;
+	justify-content: space-around;
+}
+
+.dropdown {
+	display: block;
+}
+
+.dropdown-content {
+	background: rgba(255, 255, 255, 0.8);
+	backdrop-filter: blur(10px);
+}
+
+a.dropdown-item:hover {
+	background: hsla(0, 0%, 96%, 0.5);
+}
+
+.dropdown-item {
+	display: flex;
+	align-items: center;
+	height: 70px;
+}
+
+.dropdown-item img {
+	height: 60px;
+	width: 45px;
+	object-fit: contain;
+	margin-right: 10px;
+}
+
+#left-summary .notification {
+	text-align: center;
+}
+
+#right-summary .notification {
+	text-align: center;
+}
