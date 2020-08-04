@@ -12,6 +12,8 @@ Tools used: plain JavaScript, [Bulma](https://bulma.io/), [axios](https://github
 
 #### [Live Demo (_Vercel_)](https://movie-fight-vert.vercel.app/)
 
-#### [Live Demo (_Netlify_)](https://clever-babbage-b11d99.netlify.app/)
+#### [Live Demo (_Netlify_)](https://movie-fight-420.netlify.app/)
 
-#### [Live Demo (_Fleek_)](https://mat2ja.github.io/movie-fight/)
+#### [Live Demo (_Fleek_)](https://movie-fight.on.fleek.co/)
+
+#### [Live Demo (_Surge_)](https://annoying-girl.surge.sh/)
